@@ -24,7 +24,7 @@
                     </div>
                     
                         
-                        <%= f.hidden_field :id,id: "usersid", class: "form-control", placeholder: User.last.id+1, autofocus: true %>
+                        <%= f.text_field :id,id: "usersid", class: "form-control", placeholder: "Your userid is #{User.last.id+1}", autofocus: true %>
                         
                 
                     

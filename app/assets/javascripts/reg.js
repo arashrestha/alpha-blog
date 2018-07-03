@@ -5,20 +5,25 @@ $(document).ready(function(){
     var email;
     var regno;
     var id;
-$('#username').change(function(){
-    $('#email').change(function(){
+    $('#username').change(function(){
+        $('#usersid').change(function(){
+            $('#email').change(function(){
+                
+                name =$('#username').val();
+                id=$('#usersid').val();
+                email=$('#email').val();
+                
+                
+                regno=name+'/'+email+'/'+id;
+                $('#regno').val(regno);
+                
+            })
+            
+        })
         
-        name =$('#username').val();
-        email=$('#email').val();
-       
-
-        regno=name+'/'+email;
-        $('#regno').val(regno);
     })
-   
-})
-
-
+    
+    
 });
 
 
