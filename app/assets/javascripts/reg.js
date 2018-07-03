@@ -6,23 +6,18 @@ $(document).ready(function(){
     var regno;
     var id;
     $('#username').change(function(){
-        $('#usersid').change(function(){
             $('#email').change(function(){
                 
                 name =$('#username').val();
-                id=$('#usersid').val();
                 email=$('#email').val();
                 
                 
-                regno=name+'/'+email+'/'+id;
+                regno=name+'/'+email;
                 $('#regno').val(regno);
                 
             })
             
         })
-        
-    })
-    
     
 });
 
