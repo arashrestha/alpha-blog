@@ -1,0 +1,15 @@
+current directory: /home/arash/test/alpha-blog/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+/usr/share/rvm/rubies/ruby-2.5.0/bin/ruby -r ./siteconf20180704-6891-1o7oea4.rb extconf.rb
+creating Makefile
+
+current directory: /home/arash/test/alpha-blog/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/arash/test/alpha-blog/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/arash/test/alpha-blog/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20180704-6891-1y5h49a
